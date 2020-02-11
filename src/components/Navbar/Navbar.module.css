@@ -1,0 +1,25 @@
+.nav {
+  grid-area: n;
+  background-color: blue;
+  padding: 20px;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-family: 'Fredoka One', cursive;
+  transition: .3s ease-in-out;
+}
+
+.item:hover{
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.item a.active {
+  color : gold;
+}
